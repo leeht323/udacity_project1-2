@@ -1,5 +1,6 @@
 <sdf version='1.7'>
   <world name='default'>
+   <plugin name='hello' filename='libhello.so'/>
     <light name='sun' type='directional'>
       <cast_shadows>1</cast_shadows>
       <pose>0 0 10 0 -0 0</pose>
@@ -3193,8 +3194,7 @@
         </collision>
       </link>
       <static>1</static>
-      <allow_auto_disable>1</allow_auto_disable>
-      <plugin name='hello' filename='libhello.so'/>
+      <allow_auto_disable>1</allow_auto_disable>     
       <pose>-10.7843 -2.38564 0 0 -0 0</pose>
     </model>
   </world>
